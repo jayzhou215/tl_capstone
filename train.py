@@ -48,6 +48,7 @@ import sys
 import tensorflow as tf
 
 sys.path.append('../tf_models/models/research/')  # NOQA: E402
+sys.path.append('../tf_models/models/research/slim')  # NOQA: E402
 
 
 from object_detection import trainer  # isort:skip
